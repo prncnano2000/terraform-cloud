@@ -1,3 +1,6 @@
+|| [prerequisites](#prerequisites) ||
+[Deployment](#deployment) ||
+[Authors](#authors) ||
 
 # Terraform Cloud
 
@@ -15,11 +18,13 @@ The Terraform script defines an **aws_instance** resource named **myec2** of typ
 
 - defines a resource called "ec2 instance".
 - defined the AMI to use for the EC2 instance.
+  
 ## prerequisites
 
 - **AWS Account:** You must have an AWS account with the necessary permissions to create EC2 resources.
 - **Terraform installed:** Install Terraform on your local machine by following the instructions at https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli.
 - **Text editor:** You will need a text editor to create and edit your Terraform configuration files.
+
 ## Installation
 
 
@@ -34,6 +39,8 @@ In your command prompt download the repo with the commands:
     
 ## Deployment
 
+  ### **_method 1 : remote backend_**
+  
 \
 1- Let's start by typing the Terraform **initialization** command. You must do this in the current folder where you created the previous files.
 ```bash
@@ -64,6 +71,8 @@ In your command prompt download the repo with the commands:
  terraform destroyed
 ```
 ![App Screenshot](images/destroy.png)
+
+  ### **_method 2 : UI terraform cloud_**
 
 ## Authors
 
