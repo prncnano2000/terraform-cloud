@@ -1,4 +1,4 @@
-|| [prerequisites](#prerequisites) ||
+|| [Prerequisites](#prerequisites) ||
 [Deployment](#deployment) ||
 [Authors](#authors) ||
 
@@ -19,7 +19,7 @@ The Terraform script defines an **aws_instance** resource named **myec2** of typ
 - defines a resource called "ec2 instance".
 - defined the AMI to use for the EC2 instance.
   
-## prerequisites
+## Prerequisites
 
 - **AWS Account:** You must have an AWS account with the necessary permissions to create EC2 resources.
 - **Terraform installed:** Install Terraform on your local machine by following the instructions at https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli.
